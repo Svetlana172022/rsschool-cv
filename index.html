@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>cv</title>
+  <img src="img.jpg" alt="my photo">
+  <link rel="icon" href="./assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">          
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="./assets/img/image.jpg" alt="" class="section-profile-logo">
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Svetlana Zhgirovskaya</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+        </div>        
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Minsk, Belarus
+          </li>
+          <li class="section-item contacts-item">
+            Email: <a href="mailto:artemida85@tut.by" title="email">artemida85@tut.by</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/Svetlana172022" title="github">Svetlana172022</a>
+          </li>
+          <li class="section-item contacts-item">
+            Discord: <a href="https://discord.com/channels/@me" title="github">Svetlana_85#0507</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          Professional and motivated Personal Assistent with exceptional ability of working with customers. Come to work very serious. Strong work ethic. Proficient at learning new programs and systems quickly. Have a great ability of working on diverse projects at the same time. 
+I like to develop and learn new information. 
+I want to learn front-end development in RSSchool!
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            <span> Jira</span>
+          </li>
+          <li class="section-item">
+            <span> Confluence</span>
+          </li>
+          <li class="section-item">
+            <span> GIT, Github</span>
+          </li>
+          <li class="section-item">
+            <span> MS Office</span>
+          </li>
+          <li class="section-item">
+            <span> JS (basic)</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+<pre class="pre"><code>var images = new Array();
+  function preloadImages(){
+      for (i=0; i < preloadImages.arguments.length; i++){
+           images[i] = new Image();
+          images[i].src = preloadImages.arguments[i];
+      }
+  }
+  preloadImages("main.jpg", "title.jpg", "body.jpg", "picture.jpg");
+} </code></pre>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            <span>Belarusian State Pedagogical University</span>
+	  </li>
+          <li class="section-item">
+            <span>IT Step - Automation QA Engineer</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section section-english" id="english">
+        <h2 class="section-title">English</h2>
+        <p>B1 - Pre-Intermediate</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022 <a href="https://github.com/Svetlana172022" class="github nav-link">Svetlana172022</a></div>
+      <a href="https://rs.school/js/" class="rss"></a>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
